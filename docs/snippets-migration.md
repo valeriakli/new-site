@@ -12,6 +12,8 @@
 ## 1. Не переносить: регионы RU / GE (12)
 Выключить и удалить после копирования, вместе с WCML. Затем проверить, что на оформлении есть способы доставки: их давал `prof-region-country`. Без регионов нужно в WooCommerce → Настройки → Общие поставить «Продажа только в: Беларусь» и местоположение покупателя по умолчанию — Беларусь.
 
+**Внимание:** `prof-multiregion` делает не только регионы. Он же выводит блок «Доставка и оплата» внизу категорий и товаров и задаёт canonical / SEO. Перед удалением посмотреть его код и перенести нужное (блок «Доставка и оплата» — отдельным сниппетом, canonical — через AIOSEO).
+
 | Сниппет | Что делал |
 |---|---|
 | prof-multiregion | Регионы по URL, валюта WCML, canonical, hreflang |
@@ -46,7 +48,7 @@
 | prof-checkout-debug | Временный журнал ошибок оформления |
 
 ## 4. Перенести как есть (27)
-Регионов в коде нет. Проверить после копирования, что работает.
+**Сделано 2026-11-25:** 26 сниппетов сохранены в `snippets/` (prof-sale-text не переносили — лишний). В четырёх убраны остатки регионов: prof-coupon-rules, prof-checkout-form-storage, prof-shortcode-cache, prof-payment-title-order (шапка). Проверить после копирования, что работает.
 
 **Каталог и бренды:** prof-filter-cat-order, prof-filter-cats-api, prof-woof-settings, prof-catalog-per-page, prof-cat-bottom-text, prof-brand-description, prof-sale-category-sync, my-brand-carousel, prof-description-truncate, prof-tab-add-to-cart.
 **Корзина и оформление:** prof-cart-auto-update, prof-coupon-rules, prof-checkout-fields, prof-checkout-messenger, prof-checkout-errors, prof-checkout-order-toggle, prof-checkout-back-reload, prof-checkout-form-storage (ждёт вставки), prof-shipping-label, prof-shipping-note, prof-free-shipping-min, prof-payment-title-order, prof-admin-order-shipping.
