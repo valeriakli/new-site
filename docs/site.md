@@ -50,4 +50,14 @@ _(пока нет)_
 | [prof-shortcode-cache](../snippets/prof-shortcode-cache.php) | Кеш HTML тяжёлых шорткодов на 15 мин | готов, регион убран из ключа |
 | [prof-elementor-dss-off](../snippets/prof-elementor-dss-off.php) | Отключает Elementor Design System Sync на фронтенде | готов |
 | [prof-theme-guard](../snippets/prof-theme-guard.php) | Сторож настроек темы, виджетов и меню | готов |
+| [prof-pickup-points](../snippets/prof-pickup-points.php) | Поле «Пункт выдачи Европочта» на оформлении, в заказе и письме | готов, без СДЭК и EMS |
+| [prof-checkout-shipping-info](../snippets/prof-checkout-shipping-info.php) | Плашка со сроками под способом доставки | готов, без СДЭК и EMS; сроки — уточнить у Оли |
+| [prof-order-shipping-line](../snippets/prof-order-shipping-line.php) | Строка «Доставка» в итогах заказа: почта бесплатно от 250 BYN | готов; порог — уточнить у Оли |
+| [prof-checkout-phone-mask](../snippets/prof-checkout-phone-mask.php) | Маска телефона +375 на оформлении | готов |
+| [prof-cart-guard](../snippets/prof-cart-guard.php) | Защита корзины от ботов: чёрный список стран, лимит добавлений не из BY | готов |
+| [prof-menu-brands](../snippets/prof-menu-brands.php) | Подменю всех брендов под «Бренды» | готов |
+| [prof-product-brand](../snippets/prof-product-brand.php) | Строка «Бренд, страна» на странице товара | готов |
+| [prof-brands-page](../snippets/prof-brands-page.php) | Страница /brands/: поиск, буквы, фильтры | готов; цвета — заменить |
+| [prof-home-categories](../snippets/prof-home-categories.php) | Категории на главной, подкатегории по клику | готов; цвета — заменить |
+| [prof-catalog-search](../snippets/prof-catalog-search.php) | Поиск внутри текущего каталога | готов; цвета — заменить |
 | [prof-delivery-info](../snippets/prof-delivery-info.php) | Блок «Доставка и оплата»: вкладка товара, под товарами в категориях, шорткод | готов, вынесен из prof-multiregion; тексты и адрес самовывоза — уточнить у Оли |

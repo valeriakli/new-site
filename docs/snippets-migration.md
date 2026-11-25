@@ -60,18 +60,18 @@
 ## 5. Перенести и упростить (14)
 Убрать ветки RU / GE, функции `prof_get_region()` / `prof_build_region_url()`, префиксы `/ru/`, `/ge/`.
 
+**Сделано 2026-11-25 (10 из 14), сохранены в `snippets/`:**
+- prof-pickup-points — только Европочта (поля СДЭК и EMS убраны), код переписан короче, метод в константе.
+- prof-checkout-shipping-info — убраны плашки СДЭК и EMS.
+- prof-order-shipping-line — порог 250 BYN вынесен в константу `PROF_POST_FREE_FROM`.
+- prof-checkout-phone-mask — маска всегда, без определения региона.
+- prof-cart-guard — без лимита частоты только посетители из BY.
+- prof-menu-brands, prof-product-brand, prof-brands-page, prof-home-categories, prof-catalog-search — регионов в коде не было (префиксы ставил prof-multiregion), правлены только шапки. Цвета — заменить на этапе дизайна.
+
+**Осталось (ждут ответов Оли):**
+
 | Сниппет | Что упростить |
 |---|---|
-| prof-pickup-points | Оставить только Европочту; убрать СДЭК и EMS (ждёт вставки) |
-| prof-checkout-shipping-info | Оставить сроки Минска и почты; убрать СДЭК и EMS |
-| prof-order-shipping-line | Проверить регион (ждёт вставки) |
-| prof-checkout-phone-mask | Только BY — убрать проверки региона |
-| prof-cart-guard | Белый список стран: только BY |
-| prof-menu-brands | Ссылки без префикса региона |
-| prof-product-brand | Ссылка на бренд без региона |
-| prof-brands-page | Без региона; цвета — новые |
-| prof-home-categories | Без региона; цвета — новые |
-| prof-catalog-search | Без региона; цвета — новые |
 | prof-hide-certificate-catalog | Убрать проверки региона |
 | prof-home-coupon-popup | Убрать проверку «только BY»; проценты и суммы — решение Оли |
 | prof-gift-regions | Косметичка в подарок: убрать курсы RU / GE — если акцию оставляем |
