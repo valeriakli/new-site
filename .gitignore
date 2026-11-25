@@ -1,0 +1,46 @@
+# Секреты и конфигурация
+wp-config.php
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+auth.json
+*credentials*
+*secret*
+
+# Дампы базы, бэкапы, архивы
+*.sql
+*.sql.gz
+*.bak
+*.backup
+backup*/
+backups/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.rar
+*.7z
+*.wpress
+
+# WordPress: загрузки и кеш
+uploads/
+cache/
+wp-content/uploads/
+wp-content/cache/
+
+# Логи
+*.log
+logs/
+debug.log
+
+# Системное и зависимости
+.DS_Store
+Thumbs.db
+desktop.ini
+node_modules/
