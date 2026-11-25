@@ -20,7 +20,7 @@ _(пока нет)_
 - MCP: будет свой `.mcp.json`. Переменные Windows — с отдельными именами (например `NEWSITE_WP_API_URL`), чтобы не путать с profcosmetica.
 
 ## Сниппеты
-_(пока нет; переносятся с profcosmetica после копирования сайта, без кода регионов)_
+_(пока нет; что переносить с profcosmetica — [snippets-migration.md](snippets-migration.md))_
 
 | Сниппет | Что делает | Статус |
 |---|---|---|
