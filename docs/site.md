@@ -50,3 +50,4 @@ _(пока нет)_
 | [prof-shortcode-cache](../snippets/prof-shortcode-cache.php) | Кеш HTML тяжёлых шорткодов на 15 мин | готов, регион убран из ключа |
 | [prof-elementor-dss-off](../snippets/prof-elementor-dss-off.php) | Отключает Elementor Design System Sync на фронтенде | готов |
 | [prof-theme-guard](../snippets/prof-theme-guard.php) | Сторож настроек темы, виджетов и меню | готов |
+| [prof-delivery-info](../snippets/prof-delivery-info.php) | Блок «Доставка и оплата»: вкладка товара, под товарами в категориях, шорткод | готов, вынесен из prof-multiregion; тексты и адрес самовывоза — уточнить у Оли |
