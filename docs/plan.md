@@ -41,7 +41,7 @@
 - [ ] Удалить заказы, клиентов, пользователей, сертификаты, подписчиков
 - [ ] Убрать регионы: WCML, `/ru/`, `/ge/`, сниппеты регионов, фиды RU / GE
 - [ ] Снять счётчики, пиксели, фиды, почту (SMTP) и ключи bePaid profcosmetica
-- [ ] Удалить лишние плагины; сниппеты — по [snippets-migration.md](snippets-migration.md) (перечень готов)
+- [ ] Плагины — по [plugins-migration.md](plugins-migration.md), сниппеты — по [snippets-migration.md](snippets-migration.md) (перечни готовы; список плагинов сверить с полным)
 
 **3. Дизайн**
 - [ ] Палитра и шрифты в Blocksy и Elementor, логотип
